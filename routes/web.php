@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Psy\CodeCleaner\FunctionReturnInWriteContextPass;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,19 +15,4 @@ use Psy\CodeCleaner\FunctionReturnInWriteContextPass;
 
 Route::get('/', function () {
     return view('pages.main');
-});
-Route::get('/admin', function () {
-    return view('admin.pages.dashboard');
-});
-Route::get('/admin/slider', function () {
-    return view('admin.pages.slider');
-});
-Route::get('/admin/about', function () {
-    return view('admin.pages.about');
-});
-Route::get('/admin/qoutes', function () {
-    return view('admin.pages.qoutes');
-});
-Route::get('/admin/blog', function () {
-    return view('admin.pages.blog');
 });
