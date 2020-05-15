@@ -3,10 +3,10 @@
     <div class="container d-flex">
 
         <div class="logo mr-auto">
-            <h1 class="text-light"><a href="index.html"><span>Yc</span>Quran</a></h1>
+            <h1 class="text-light"><a href="index.html"><span>Y<span class="logo-yellow">c</span></span>Quran</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-        </div>
+        </div>  
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
@@ -40,3 +40,9 @@
 
     </div>
 </header><!-- End Header -->
+
+@push('after-style')
+<style>
+
+</style>
+@endpush

@@ -7,7 +7,7 @@
                     <div class="footer-content">
                         <div class="footer-head">
                             <div class="footer-logo">
-                                <h2><span>e</span>Business</h2>
+                                <h2><span>Yc</span>Quran</h2>
                             </div>
 
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
@@ -72,7 +72,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="copyright text-center">
                         <p>
-                            &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
+                            &copy; Copyright <strong>YcQuran</strong>. All Rights Reserved
                         </p>
                     </div>
                     <div class="credits">

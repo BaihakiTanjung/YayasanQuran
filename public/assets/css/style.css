@@ -274,6 +274,10 @@ div#preloader {
     color: #2ecc71;
 }
 
+/* #header .logo h1 span .logo-yellow {
+    color: yellow;
+} */
+
 #header .logo h1 a,
 #header .logo h1 a:hover {
     color: #fff;
