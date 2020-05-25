@@ -10,8 +10,9 @@
                                 <h2><span>Yc</span>Quran</h2>
                             </div>
 
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                            <p>Yayasan Cahaya Qur'an merupakan salah satu lembaga berbasis Al-Qur'an sebagai ladang
+                                pembentukan pola sikap dan karakter
+                                umat untuk mewujudkan kemuliaan Islam.</p>
                             <div class="footer-icons">
                                 <ul>
                                     <li>

@@ -16,6 +16,7 @@ class Slider extends Migration
         Schema::create('slider', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->longText('photo');
             $table->string('description');
         });
     }

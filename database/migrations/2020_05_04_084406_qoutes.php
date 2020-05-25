@@ -16,6 +16,7 @@ class Qoutes extends Migration
         Schema::create('qoutes', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->longText('photo');
             $table->string('by')->unique();
         });
     }

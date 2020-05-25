@@ -22,33 +22,26 @@
             <!-- single-well end-->
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="well-middle">
+                    @foreach ($about as $a)
+
+
                     <div class="single-well">
                         <a href="#">
-                            <h4 class="sec-head">project Maintenance</h4>
+                            <h4 class="sec-head">{{$a -> title}}</h4>
                         </a>
                         <p>
-                            Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure
-                            aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur
-                            adipisicing elit. Itaque quas officiis iure
+                            {{$a -> description}}
                         </p>
+                        @endforeach
+                        <h4 class="sec-head">Visi dan Misi</h4>
                         <ul>
+                            @foreach ($visimisi as $v)
                             <li>
-                                <i class="fa fa-check"></i> Interior design Package
-                            </li>
-                            <li>
-                                <i class="fa fa-check"></i> Building House
-                            </li>
-                            <li>
-                                <i class="fa fa-check"></i> Reparing of Residentail Roof
-                            </li>
-                            <li>
-                                <i class="fa fa-check"></i> Renovaion of Commercial Office
-                            </li>
-                            <li>
-                                <i class="fa fa-check"></i> Make Quality Products
-                            </li>
+                                <i class="fa fa-check"></i> {{$v -> nama}}
+                                @endforeach
                         </ul>
                     </div>
+
                 </div>
             </div>
             <!-- End col-->

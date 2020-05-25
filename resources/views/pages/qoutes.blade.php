@@ -10,18 +10,18 @@
                         <a class="quate" href="#"><i class="fa fa-quote-right"></i></a>
                         <!-- start testimonial carousel -->
                         <div class="owl-carousel testimonial-carousel">
+                            @foreach ($qoutes as $q)
                             <div class="single-testi">
                                 <div class="testi-text">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
-                                        luctus est eget congue.<br>consectetur adipiscing elit. Sed pulvinar
-                                        luctus est eget congue.
+                                        {{$q -> title}}
                                     </p>
-                                    <h6>Boby</h6>
+                                    <h6>{{$q -> by}}</h6>
                                 </div>
                             </div>
+                            @endforeach
                             <!-- End single item -->
-                            <div class="single-testi">
+                            {{-- <div class="single-testi">
                                 <div class="testi-text">
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
@@ -30,9 +30,9 @@
                                     </p>
                                     <h6>Jhon</h6>
                                 </div>
-                            </div>
+                            </div> --}}
                             <!-- End single item -->
-                            <div class="single-testi">
+                            {{-- <div class="single-testi">
                                 <div class="testi-text">
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
@@ -41,7 +41,7 @@
                                     </p>
                                     <h6>Fleming</h6>
                                 </div>
-                            </div>
+                            </div> --}}
                             <!-- End single item -->
                         </div>
                     </div>

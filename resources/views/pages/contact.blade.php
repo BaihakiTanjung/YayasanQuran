@@ -17,7 +17,8 @@
                         <div class="single-icon">
                             <i class="fa fa-mobile"></i>
                             <p>
-                                Call: +1 5589 55488 55<br>
+                                Call: 085881645575 - 085781306380
+                                - 0817244444<br>
                                 <span>Monday-Friday (9am-5pm)</span>
                             </p>
                         </div>
@@ -29,8 +30,8 @@
                         <div class="single-icon">
                             <i class="fa fa-envelope-o"></i>
                             <p>
-                                Email: info@example.com<br>
-                                <span>Web: www.example.com</span>
+                                Email: ycquran@gmail.com<br>
+                                <span>Web: www.ycquran.com</span>
                             </p>
                         </div>
                     </div>
@@ -41,8 +42,9 @@
                         <div class="single-icon">
                             <i class="fa fa-map-marker"></i>
                             <p>
-                                Location: A108 Adam Street<br>
-                                <span>NY 535022, USA</span>
+                                Location: Jl. Cipinang Raya II.A Ujung Kavling : 06/09, No 18.
+                                Cipinang Besar Selatan, Jatinegara, Jakarta Timur.<br>
+                                <span>13410</span>
                             </p>
                         </div>
                     </div>
@@ -54,7 +56,7 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <!-- Start Map -->
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1422.7050480962873!2d106.88234697606336!3d-6.220664396905719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f361554d5e97%3A0x34d08010ae4701!2sJl.%20Prumpung%20Tengah%20No.3%2C%20RT.6%2FRW.9%2C%20Cipinang%20Besar%20Sel.%2C%20Kecamatan%20Jatinegara%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2013410!5e0!3m2!1sid!2sid!4v1590403993645!5m2!1sid!2sid"
                         width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <!-- End Map -->
                 </div>

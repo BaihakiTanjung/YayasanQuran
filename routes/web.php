@@ -14,9 +14,7 @@ use Psy\CodeCleaner\FunctionReturnInWriteContextPass;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.main');
-});
+Route::get('/', 'Front\FrontController@index');
 Route::get('/admin', function () {
     return view('admin.pages.dashboard');
 });
