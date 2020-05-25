@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Slider;
 use App\About;
+use App\Message;
 use DB;
 
 class FrontController extends Controller
@@ -27,5 +28,19 @@ class FrontController extends Controller
             'qoutes' => $qoutes,
             'visimisi' => $visimisi
         ]);
+    }
+
+    public function kirimPesan(Request $request)
+    {
+
+        DB::table('message')->insert([
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message
+        ]);
+        // return $request->all();
+
+        
     }
 }

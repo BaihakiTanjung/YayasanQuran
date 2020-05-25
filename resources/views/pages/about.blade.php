@@ -23,8 +23,6 @@
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="well-middle">
                     @foreach ($about as $a)
-
-
                     <div class="single-well">
                         <a href="#">
                             <h4 class="sec-head">{{$a -> title}}</h4>

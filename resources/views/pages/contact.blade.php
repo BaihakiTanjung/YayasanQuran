@@ -56,7 +56,7 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <!-- Start Map -->
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1422.7050480962873!2d106.88234697606336!3d-6.220664396905719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f361554d5e97%3A0x34d08010ae4701!2sJl.%20Prumpung%20Tengah%20No.3%2C%20RT.6%2FRW.9%2C%20Cipinang%20Besar%20Sel.%2C%20Kecamatan%20Jatinegara%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2013410!5e0!3m2!1sid!2sid!4v1590403993645!5m2!1sid!2sid"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.1644944846516!2d106.88190225804247!3d-6.2202765988742925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3615444499f%3A0x886144d7ad3e57aa!2sJl.%20Cipinang%20Jaya%20IIA%2C%20RT.3%2FRW.9%2C%20Cipinang%20Besar%20Sel.%2C%20Kecamatan%20Jatinegara%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2013410!5e0!3m2!1sid!2sid!4v1590410459317!5m2!1sid!2sid"
                         width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <!-- End Map -->
                 </div>
@@ -65,7 +65,8 @@
                 <!-- Start  contact -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="form contact-form">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="{{url('/kirim')}}" method="post" role="form" class="php-email-form">
+                            @csrf
                             <div class="form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
                                     data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -89,7 +90,7 @@
                             </div>
                             <div class="mb-3">
                                 <div class="loading">Loading</div>
-                                <div class="error-message"></div>
+                                <div class="error-message">Your message has been sent. Thank you!</div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
                             <div class="text-center"><button type="submit">Send Message</button></div>
